@@ -416,11 +416,15 @@ strong {
   background-image: url('../assets/hero-picture.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  /* border-radius: var(--border-radius-small); */
+
   position: relative;
   overflow: hidden;
-  /* padding: 50px; */
-  height: calc(90vh - 150px);
+  padding: 40px;
+  /* height: calc(90vh - 150px); */
+}
+
+.hero-title {
+  padding-top: 12%;
 }
 
 .hero-container h2 {
@@ -881,11 +885,6 @@ strong {
   .navbar-nav .nav-link {
     padding-bottom: 0;
   }
-
-  /* .hero-container {
-    padding: 40px;
-    min-height: 650px;
-  } */
 
   .about-info-wrap {
     padding: 10px 20px 40px 20px;
